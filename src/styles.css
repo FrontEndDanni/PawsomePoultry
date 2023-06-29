@@ -16,9 +16,15 @@ h1{
   display: flex;
   flex-direction: column;
 }
+.navbar-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
 .navbar {
   background-color: white;
   padding: 10px;
+  position:fixed;
+  width:100%;
 }
 
 .navbar-list {
@@ -26,7 +32,7 @@ h1{
   display: flex;
   justify-content: flex-end;
   margin: 0;
-  padding: 0;
+  padding-right: 50px;
 }
 
 .navbar-item {
@@ -49,6 +55,7 @@ h1{
   padding: 20px;
   text-align: center;
   color: #FFFFFF;
+  width:100%;
 }
 
 .content {
@@ -62,6 +69,35 @@ p {
   line-height: 1.5;
   color: #555555;
 }
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.placeholder-image {
+  width: 200px;
+  height: 200px;
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.image-caption {
+  font-size: 14px;
+  color: #555555;
+}
+
 
 .cta-button {
   font-family: 'Cabin', sans-serif !important;
@@ -86,6 +122,5 @@ p {
   color: #FFFFFF;
   margin-top:auto;
   width:100%;
-  position:fixed;
   bottom:0;
 }
