@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import ProductPage from './pages/ProductPage';
 import HomePage from './pages/HomePage';
+import Footer from './components/Footer';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -23,6 +24,7 @@ function App() {
   return (
     <div>
       <RouterProvider router={router}/>
+      <Footer />
     </div>
   );
 }
