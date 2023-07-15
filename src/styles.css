@@ -53,6 +53,7 @@ h1{
 .header {
   background-color: #FBB040;
   padding: 20px;
+  padding-top:50px;
   text-align: center;
   color: #FFFFFF;
   width:100%;
@@ -247,7 +248,7 @@ p {
 
 .add-to-cart {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #8BC34A;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -256,5 +257,5 @@ p {
 }
 
 .add-to-cart:hover {
-  background-color: #0056b3;
+  background-color: #6B9B37;
 }
